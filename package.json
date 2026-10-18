@@ -12,7 +12,7 @@
     "dev:server": "node --disable-warning=ExperimentalWarning --watch server/index.js",
     "dev:client": "vite",
     "build": "tsc -p client && vite build",
-    "start": "NODE_ENV=production node --disable-warning=ExperimentalWarning server/index.js",
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
     "seed": "node --disable-warning=ExperimentalWarning server/seed.js",
     "typecheck": "tsc -p client",
     "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
